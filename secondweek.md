@@ -25,7 +25,7 @@
 
 Java에서 프리미티브 타입의 종류는 총 8가지이다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/88c514fb-196c-4937-ae11-a85e3765477a/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/88c514fb-196c-4937-ae11-a85e3765477a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211216T151321Z&X-Amz-Expires=86400&X-Amz-Signature=b160ee2b5b8f611373770ababc3bd3732531b7b8fcd3bc15844fb5c9cc219258&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ## 프리미티브 타입과 레퍼런스 타입
 
