@@ -24,7 +24,7 @@
 - JIT 가 그때그때 번역해준다.
 
 ## 실행하는 방법
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fb837012-e7f3-468a-90df-fe9cc228f4ee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211201T151232Z&X-Amz-Expires=86400&X-Amz-Signature=437698feaf571db06736acf6668bd91d543d98aa47bbeb75f2d014dbc7f8bedd&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fb837012-e7f3-468a-90df-fe9cc228f4ee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211216T151852Z&X-Amz-Expires=86400&X-Amz-Signature=5b55f935212d819188f5c353e383e34464dcf30a64f1df465c0c5453e44c155d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
 
 - 메모장에 자바코드 작성→[Hello.java](http://Hello.java)로 저장→javac Hello.java →.class 파일 생성→ java Hello(실행) →메모장 내용출력
 - .java → .class → class loader → execution engine → runtime data area
