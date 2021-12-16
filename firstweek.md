@@ -40,7 +40,7 @@
 - 자바 바이트 코드는 자바 가상 머신만 설치되어 있다면 어느 운영체제에서도 실행 가능
 
 ## JVM 구성 요소
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc01cbca-24f9-4447-b6f5-78123b9da3d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211201T151200Z&X-Amz-Expires=86400&X-Amz-Signature=68f5ed13fa2e64f1d44cfb925684ff22e27314b28bc4ed74c940a8876c9626a8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"/>
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc01cbca-24f9-4447-b6f5-78123b9da3d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211216T151933Z&X-Amz-Expires=86400&X-Amz-Signature=1b2bcf898041598744dcc97daf6a1b4c284b6b22c858ae80bedb0d265b6652d0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"/>
 
 - Class Loader
     
