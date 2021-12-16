@@ -82,7 +82,7 @@
 - 인터프리터 방식은 바이트코드를 한 줄씩 읽으면서(번역하면서) 코드를 실행하기 때문에 동일한 메소드를 실행하는 경우 중복해서 번역하는 비효율이 있다. 이를 방지해서 보다 좋은 성능을 낼 수 있게 하기 위해 JIT 컴파일러는 번역한 내용을 캐싱해 두었다가 동일한 메소드를 실행할 경우 다시 번역하지 않고 캐싱된 내용을 실행한다.
 
 ## JDK와 JRE의 차이
-<img width="" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/edd1e504-8027-4778-b7f6-e022063206cd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211201T151011Z&X-Amz-Expires=86400&X-Amz-Signature=fa09c5460f05ea50433c4d73080a5c4364f04c0d835ec0a52333b7ba9239000d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"/>
+<img width="" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/edd1e504-8027-4778-b7f6-e022063206cd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211216T152000Z&X-Amz-Expires=86400&X-Amz-Signature=d184904f24ef65210f278e299d9ade8b477dabfe9933e85fd1b04ff4fc4b252a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject"/>
 
 - JDK : Java Development Kit, 자바 개발 도구
     
