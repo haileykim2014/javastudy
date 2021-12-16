@@ -76,7 +76,7 @@ float c = 0.1f;//0.1
 char a = 'a';
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71aa3faa-7d23-48bb-be52-1fd3ab12cd17/Untitled.png)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/71aa3faa-7d23-48bb-be52-1fd3ab12cd17/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211216%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211216T151803Z&X-Amz-Expires=86400&X-Amz-Signature=d32b0b0ef0280e77164ef97f8de63f14d0307e036056da4c88a4081f61ecafe2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ### 문자열 리터럴
 
