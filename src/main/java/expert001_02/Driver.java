@@ -6,7 +6,7 @@ public class Driver {
         //Tire tire = new AmericaTire();
 
         Car car = new Car(tire);
-
+        //car가 구체적으로 KoreaTire를 생산할지, AmericaTire를 생산할지 결정
         System.out.println(car.getTireBrand());
     }
 }
