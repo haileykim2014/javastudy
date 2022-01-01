@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Driver {
     public static void main(String[] args){
 
-        ApplicationContext context = new ClassPathXmlApplicationContext("static/expert002.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("expert002.xml");
         Car car = context.getBean("car",Car.class);
 
         Tire tire = context.getBean("tire",Tire.class);
