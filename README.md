@@ -13,5 +13,5 @@ Java Study
 -----
 - [1주차: JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가](firstweek.md)  
 - [2주차: 자바 데이터 타입, 변수 그리고 배열](secondweek.md)  
-- [3주차: 연산자](secondweek.md)  
-- [4주차: 제어문](thirdweek.md)  
+- [3주차: 연산자](thirdweek.md)  
+- [4주차: 제어문](fourthweek.md)  
