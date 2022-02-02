@@ -173,15 +173,15 @@ pom.xml에 다음 종속성을 추가해야합니다 .
 </dependency>
 ```
 
-이 버전 **이 작동하려면 Java 8** 이 **필요합니다** .
+이 버전 **이 작동하려면 Java 8** 이 **필요** .
 
-또한 IntelliJ뿐만 아니라 Eclipse의 JUnit 플랫폼에서 단위 테스트를 실행하는 직접 지원이 있습니다. 물론 Maven Test 목표를 사용하여 테스트를 실행할 수도 있습니다.
+또한 IntelliJ뿐만 아니라 Eclipse의 JUnit 플랫폼에서 단위 테스트를 실행하는 직접 지원. 물론 Maven Test 목표를 사용하여 테스트를 실행할 수도 있다.
 
-반면 IntelliJ는 기본적으로 JUnit 5를 지원합니다. 따라서 IntelliJ에서 JUnit 5를 실행하는 것은 매우 간단합니다. 오른쪽 클릭 –> 실행 또는 Ctrl-Shift-F10 만 있으면됩니다.
+반면 IntelliJ는 기본적으로 JUnit 5를 지원한다. 따라서 IntelliJ에서 JUnit 5를 실행하는 것은 매우 간단. 오른쪽 클릭 –> 실행 또는 Ctrl-Shift-F10.
 
 ---
 
-**과제 1. live-study 대시 보드를 만드는 코드를 작성하세요.**
+**과제 1. live-study 대시 보드를 만드는 코드를 작성.**
 
 ```java
 import org.kohsuke.github.*;
