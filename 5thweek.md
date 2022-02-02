@@ -238,11 +238,7 @@ class Person {
 - **완전 이진 트리** : 노드가 루트, 왼쪽, 오른쪽 순으로 차례때로 채워지는 트리를 말하고 반드시 왼쪽부터 채워져 있어야한다.
 - **포화 이진 트리** : 리프 노드의 레벨이 모두 동일하고 트리가 가득 채워져 있는 트리를 말한다. 즉, 노드의 갯수가 $2^N-1$개를 가진다.
 - **정 이진 트리** :  노드가 두 개의 자식노드를 갖는다. 홀수 개의 자식 노드를 가질 수 없다.
-    
-    ![[출처] [https://sean-ma.tistory.com/24](https://sean-ma.tistory.com/24)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/787a6992-c525-45bc-976f-aae2ff50f4a5/Untitled.png)
-    
-    [출처] [https://sean-ma.tistory.com/24](https://sean-ma.tistory.com/24)
-    
+
 
 Node.java
 
