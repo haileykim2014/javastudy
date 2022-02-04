@@ -16,3 +16,4 @@ Java Study
 - [3주차: 연산자](thirdweek.md)  
 - [4주차: 제어문](fourthweek.md) 
 - [5주차: 클래스](5thweek.md) 
+- [6주차: 상속](6thweek.md) 
