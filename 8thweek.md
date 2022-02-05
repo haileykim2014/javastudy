@@ -173,7 +173,7 @@ public class Fish implements SwimAble{
 
 그러면 다이어 그램으로 보면 다음과 같다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3be0f02b-c8d5-426c-bd6b-30210cddb877/Untitled.png)
+![image](https://user-images.githubusercontent.com/74589038/152649687-0ad01a0a-6930-4cc3-80af-6474a3fe4f68.png)
 
 자 그러면 Hailey 객체는 분류를 나눌 때
 
