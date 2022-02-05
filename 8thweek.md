@@ -14,7 +14,7 @@
 
 ---
 
-## **[인터페이스(Interface) 정의하는 방법](https://k3068.tistory.com/34#%EC%-D%B-%ED%--%B-%ED%-E%--%EC%-D%B-%EC%-A%A--Interface-%--%EC%A-%--%EC%-D%--%ED%--%--%EB%-A%--%--%EB%B-%A-%EB%B-%--)**
+## 인터페이스(Interface) 정의하는 방법**
 
 인터페이스를 정의 하는 방법을 알아보기 전에 왜 인터페이스를 정의하여 사용할까?
 
@@ -137,7 +137,7 @@ public class JaeJoon extends Person implements SwimAble{
 
 ---
 
-## [인터페이스 레퍼런스를 통해 구현체를 사용하는 방법](https://k3068.tistory.com/34#%EC%-D%B-%ED%--%B-%ED%-E%--%EC%-D%B-%EC%-A%A-%--%EB%A-%--%ED%-D%BC%EB%-F%B-%EC%-A%A-%EB%A-%BC%--%ED%--%B-%ED%--%B-%--%EA%B-%AC%ED%--%--%EC%B-%B-%EB%A-%BC%--%EC%--%AC%EC%-A%A-%ED%--%--%EB%-A%--%--%EB%B-%A-%EB%B-%--)
+## 인터페이스 레퍼런스를 통해 구현체를 사용하는 방법
 
 위 코드와 이어집니다.
 
