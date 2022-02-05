@@ -18,3 +18,5 @@
 - [5주차: 클래스](5thweek.md) 
 - [6주차: 상속](6thweek.md) 
 - [7주차: 패키지](7thweek.md) 
+- [8주차: 인터페이스](8thweek.md) 
+- [9주차: 예외](9thweek.md) 
