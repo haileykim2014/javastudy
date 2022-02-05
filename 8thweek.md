@@ -62,9 +62,9 @@
 
 그럼 추상클래스만 쓰지 왜 인터페이스가 존재할까?
 
-**추상 클래스는 IS - A ~는 ~이다 -> JaeJoon(재준) 은 사람이다.**
+**추상 클래스는 IS - A ~는 ~이다 -> Hailey 은 사람이다.**
 
-**인터페이스는 HAS - A "~는 ~ 를 할 수 있다. JaeJoon(재준)는 수영을 할 수 있다.**
+**인터페이스는 HAS - A "~는 ~ 를 할 수 있다. Hailey는 수영을 할 수 있다.**
 
 즉 Person은 수영을 할 수도 있고 할 수 없을 수도 있기 때문에 Person이라는 개념에 속하는 것이 어색하다.
 
@@ -99,12 +99,12 @@ public interface SwimAble {
 
 ```
 
-**JaeJoon 클래스 (Person을 상속받고 SwimAble을 구현하고 있다! )**
+**Hailey 클래스 (Person을 상속받고 SwimAble을 구현하고 있다! )**
 
 ```
-public class JaeJoon extends Person implements SwimAble{
+public class Hailey extends Person implements SwimAble{
 
-    public JaeJoon(int age) {
+    public Hailey(int age) {
         this.age = age;
     }
 
@@ -176,7 +176,7 @@ public class Fish implements SwimAble{
 
 ![https://blog.kakaocdn.net/dn/Dq9Fh/btqSNlDF4CV/vRmTNOgD2YKcTh0wlXECX0/img.png](https://blog.kakaocdn.net/dn/Dq9Fh/btqSNlDF4CV/vRmTNOgD2YKcTh0wlXECX0/img.png)
 
-자 그러면 JaeJoon이라는 객체는 분류를 나눌 때
+자 그러면 Hailey 객체는 분류를 나눌 때
 
 SwimAble 그룹에도 속할 수 있고 Person이라는 그룹에도 속할 수 있다.
 
@@ -186,13 +186,13 @@ SwimAble 그룹에도 속할 수 있고 Person이라는 그룹에도 속할 수 
 public class Solution {
     public static void main(String[] args) {
 
-        JaeJoon jaeJoon = new JaeJoon(25);
+        Hailey hailey = new Hailey(25);
         Kevin kevin = new Kevin(25);
         Fish fish = new Fish();
 
 //=======================사람 그룹========================
         List<Person> people = new ArrayList<>();
-        people.add(jaeJoon);
+        people.add(hailey);
         people.add(kevin);
         for (Person person : people) {
             person.language();
@@ -203,7 +203,7 @@ public class Solution {
 //=========================헤엄 칠수 있는 그룹==========================
         List<SwimAble> swimAbles = new ArrayList<>();
         swimAbles.add(fish);
-        swimAbles.add(jaeJoon);
+        swimAbles.add(hailey);
 
         for (SwimAble swimAble : swimAbles) {
             swimAble.swim();
@@ -222,9 +222,9 @@ public class Solution {
 
 예를 들어보자.
 
-JaeJoon이라는 객체는 사람이면서 수영이라는 부가기능을 가지고 있다.
+Hailey 객체는 사람이면서 수영이라는 부가기능을 가지고 있다.
 
-하지만 수영이라는 인터페이스는 너무 광범위하여 세부 종목을  JaeJoon에게 하고 싶다.
+하지만 수영이라는 인터페이스는 너무 광범위하여 세부 종목을  Hailey에게 하고 싶다.
 
 접영을 하려면 자유형을 해야 한다고 가정하자. 또한  접영을 한다는 것은 수영을 할 수 있다는 것이다.
 
@@ -247,9 +247,9 @@ public interface ButterflyStroke extends SwimAble ,Freestyle{
 ```
 
 ```
-public class JaeJoon extends Person implements ButterflyStroke{
+public class Hailey extends Person implements ButterflyStroke{
 
-    public JaeJoon(int age) {
+    public Hailey(int age) {
         this.age = age;
     }
 
@@ -280,7 +280,7 @@ public class JaeJoon extends Person implements ButterflyStroke{
 
 예를 들면
 
-JaeJoon이라는 객체가 프로그래밍을 배워서  수영과 프로그래밍을 가능해졌을 때
+Hailey 객체가 프로그래밍을 배워서  수영과 프로그래밍을 가능해졌을 때
 
 다중 구현을 통해 해결할 수 있다.
 
@@ -292,7 +292,7 @@ public interface Programing {
 ```
 
 ```
-public class JaeJoon extends Person implements ButterflyStroke ,Programing{
+public class Hailey extends Person implements ButterflyStroke ,Programing{
 
  	'''' 생략
 
