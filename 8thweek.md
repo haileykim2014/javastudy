@@ -22,7 +22,7 @@
 
 **추상(abstract)의** 단어의 뜻은 무엇일까?
 
-- >사물이 지니고 있는 여러 가지 측면 가운데서 특정한 측면만을 가려내어 포착하는 것이다.(위키백과)
+- 사물이 지니고 있는 여러 가지 측면 가운데서 특정한 측면만을 가려내어 포착하는 것이다.(위키백과)
 
 세상에 존재하는 모든 객체를 구체적이고 상세하게 인간이 파악하기는 사실은 힘들다.
 
@@ -123,17 +123,16 @@ public class Hailey extends Person implements SwimAble{
 
 인터페이스의 특징(정의 방법)
 
-1. 추상 메서드와 상수로 구성됨 (**자바 8 이후부터 default , static  메서드 추가 가능)**
+1. 추상 메서드와 상수로 구성됨 (**자바 8 이후부터 default , static 메서드 추가 가능)**
 
 2.  모든 메서드 접근 지정자는 public이며 생략이 가능
 
-3. 상수는 public static fianl 속성이며 생략이 가능
+1. 상수는 public static fianl 속성이며 생략이 가능
 
 인터페이스 구현 방법
 
 1. public class classname implements 인터페이스
-
-2. 인터페이스에서 정의한 추상 메서드를  인터페이스를 구현(implements)하고 있는 클래스에서 재정의 하여 구현하여 사용하면 된다.
+2. 인터페이스에서 정의한 추상 메서드를 인터페이스를 구현(implements)하고 있는 클래스에서 재정의 하여 구현하여 사용하면 된다.
 
 ---
 
@@ -176,7 +175,6 @@ public class Fish implements SwimAble{
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3be0f02b-c8d5-426c-bd6b-30210cddb877/Untitled.png)
 
-
 자 그러면 Hailey 객체는 분류를 나눌 때
 
 SwimAble 그룹에도 속할 수 있고 Person이라는 그룹에도 속할 수 있다.
@@ -211,6 +209,7 @@ public class Solution {
         }
     }
 }
+
 ```
 
 즉 이런 식으로 객체의 상세정보를 제외하고 분류(classification)의 정의에 중요한 부분을 강조를 할 수 있다.
