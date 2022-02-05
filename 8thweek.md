@@ -174,7 +174,7 @@ public class Fish implements SwimAble{
 
 그러면 다이어 그램으로 보면 다음과 같다.
 
-![https://blog.kakaocdn.net/dn/Dq9Fh/btqSNlDF4CV/vRmTNOgD2YKcTh0wlXECX0/img.png](https://blog.kakaocdn.net/dn/Dq9Fh/btqSNlDF4CV/vRmTNOgD2YKcTh0wlXECX0/img.png)
+!(https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3be0f02b-c8d5-426c-bd6b-30210cddb877/Untitled.png))
 
 자 그러면 Hailey 객체는 분류를 나눌 때
 
