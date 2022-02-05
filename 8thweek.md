@@ -14,7 +14,7 @@
 
 ---
 
-## 인터페이스(Interface) 정의하는 방법**
+## 인터페이스(Interface) 정의하는 방법
 
 인터페이스를 정의 하는 방법을 알아보기 전에 왜 인터페이스를 정의하여 사용할까?
 
@@ -216,7 +216,7 @@ public class Solution {
 
 ---
 
-## [인터페이스 상속](https://k3068.tistory.com/34#%EC%-D%B-%ED%--%B-%ED%-E%--%EC%-D%B-%EC%-A%A-%--%EC%--%--%EC%--%-D)
+## 인터페이스 상속
 
 인터페이스의 가장 큰 장점은 다중 상속이 가능하다는 것이다.
 
@@ -306,7 +306,7 @@ public class JaeJoon extends Person implements ButterflyStroke ,Programing{
 
 ---
 
-### [인터페이스의 기본 메서드 (Default Method) - 자바 8](https://k3068.tistory.com/34#%EC%-D%B-%ED%--%B-%ED%-E%--%EC%-D%B-%EC%-A%A-%EC%-D%--%--%EA%B-%B-%EB%B-%B-%--%EB%A-%--%EC%--%-C%EB%--%-C%---Default%--Method-%---%--%EC%-E%--%EB%B-%--%---)
+### 인터페이스의 기본 메서드 (Default Method) - 자바 8
 
 앞에 표에서 설명한 것처럼 자바 8 이전에는 Interface 에는 추상 메서드만 선언이 가능했었다.
 
@@ -335,7 +335,7 @@ public interface Programing {
 
 ---
 
-### [인터페이스의 스테틱 메서드 (Static Method) - 자바 8](https://k3068.tistory.com/34#%EC%-D%B-%ED%--%B-%ED%-E%--%EC%-D%B-%EC%-A%A-%EC%-D%--%--%EC%-A%A-%ED%--%-C%ED%-B%B-%C-%A-%EB%A-%--%EC%--%-C%EB%--%-C%C-%A--Static%--Method-%---%--%EC%-E%--%EB%B-%--%---)
+### 인터페이스의 스테틱 메서드 (Static Method) - 자바 8
 
 앞서 말한 default 메서드 와 맥락은 비슷하고
 
@@ -354,7 +354,7 @@ public interface Programing {
 
 ---
 
-### [인터페이스의 priavte 메서드 (private Method) - 자바 9](https://k3068.tistory.com/34#%EC%-D%B-%ED%--%B-%ED%-E%--%EC%-D%B-%EC%-A%A-%EC%-D%--%--priavte%--%EB%A-%--%EC%--%-C%EB%--%-C%C-%A--private%--Method-%---%--%EC%-E%--%EB%B-%--%---)
+### 인터페이스의 priavte 메서드 (private Method) - 자바 9
 
 말 그대로 인터페이스 내부에서 private 메서드를 사용 할 수 있는 것이다.
 
