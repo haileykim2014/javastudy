@@ -7,6 +7,56 @@
 - java.lang.Enum
 - EnumSet
 
+
+### 인터페이스 기반 상수의 정의 : 자바5 이전의 방식
+
+인터페이스 내에 선언된 변수는 public, static, final이 선언된 것으로 간주
+
+관련 있는 상수들을 묶어서 선언했었다.
+
+```java
+interface Scale{
+	int DO = 0; int RE = 1; int MI = 2; int FA = 3;
+	int SO = 4; int RA = 5; int TI = 6;
+}
+```
+
+### 이전 방식의 문제점
+
+Animal.DOG는 1이라는 정수를 갖는다. int형 값이니까 switch는 Person.MAN이 전달된것으로 알고 실행된다. 컴파일 및 실행과정에서 발견되지 않는 오류가 발생한다. 나중에 오류가 발생했는지 모르는 치명적인 약점이 생긴다.
+
+안정장치가 필요하다. 최소한 컴파일 레벨에서 오류가 발견이 되도록 개선이 되었다.→Enum 등장
+
+```java
+interface Animal{
+	int DOG = 1;
+	int CAT = 2;
+}
+
+interface Person{
+	int MAN =1;
+	int WOMAN = 2;
+}
+
+class NonSafeConst{
+	public static void main(String[] args){
+		who(Person.MAN); //정상적인 메소드 호출
+		who(Animal.DOG); //비정상적 메소드 호출
+	}
+}
+
+public static void who(int man){
+	switch(man){
+	case Person.MAN;
+		System.out.println("남성 손님입니다.");
+		break;
+	case Person.WOMAN;
+		System.out.println("여성 손님입니다.");
+			break;
+	}
+}
+```
+
 ### Enum 📌
 
 열거형(enumerated type)이라고 부르며 서로 연관된 상수들의 집합이다. 기존에 상수를 사용하면서 발생했던 문제(typesafe)를 개선하고자 jdk1.5 부터 추가 된 기능이다.
