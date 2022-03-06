@@ -75,29 +75,37 @@ enum Day { // 0부터 연속적인 정수값 부여
     SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;
 }
 ```
-
 ### Enum의 사용 💡
 
-- Hamburger라는 enum을 정의한 후
-- EnumTest 클래스에서 `init()` 메소드 호출 시 열거형 인스턴스 변수에 `Hamburger.BIGMAC` 대입
+- Scale라는 enum을 정의
+- 자료형의 부여를 돕는 열거형
+- DO,RE,MI : 열거형 값들 (어떻게 쓰느냐에 따라 의미가 부여)
 
-```
-enum Hamburger {
-    BIGMAC, SHANGHI, MACCHICKEN;
+```java
+enum Scale{ //열거 자료형 Sacle의 정의
+	DO, RE, MI, FA, SO, RA, TI	
+} //열거형 값 
+
+public static void main(String[] args){
+		Scale sc = Sacle.DO;
+		System.out.println(sc);
+
+		switch(sc){
+		case DO:
+			System.out.println("도~");
+		break;
+		case RE:
+			System.out.println("레~");
+		break;
+		case MI:
+			System.out.println("미~");
+		break;
+		case FA:
+			System.out.println("파~");
+		break;
+		default:
+				System.out.println(솔라시~");
 }
-
-public class EnumTest {
-    public static void main(String[] args) {
-        Hamburger hamburger = Hamburger.BIGMAC;
-        System.out.println(hamburger + "버거 입니다.");
-
-    }
-}
-```
-
-```
-Output
-BIGMAC버거 입니다.
 ```
 
 ### 중요점 ⭐️
@@ -105,17 +113,18 @@ BIGMAC버거 입니다.
 - 모든 enum은 클래스를 사용해서 내부적으로 정의가 된다.
 - 실제로 컴파일까지 한 후 바이트 코드를 분석해보면 아래와 같이 출력된다.
 
-```
+```java
 // 내부적으로 위에서 작성한 enum은 아래와 같이 바뀐다.
-class Hamburger
-{
-     public static final Hamburger BIGMAC = new Hamburger();
-     public static final Hamburger SHANGHI = new Hamburger();
-     public static final Hamburger MACCHICKEN = new Hamburger();
+enum Person{
+	MAN,WOMAN;
+...
 }
+public static final Person MAN = new Person();
+public static final Person WOMAN = new Person();
+//열거형 값의 실체를 설명하는 문장, 실제 컴파 아래와 같다.
 ```
 
-![https://images.velog.io/images/ljs0429777/post/563a0e93-8eef-461d-bd79-c8a447a87791/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-01-27%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2012.25.12.png](https://images.velog.io/images/ljs0429777/post/563a0e93-8eef-461d-bd79-c8a447a87791/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-01-27%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2012.25.12.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/21b5530e-a532-427b-a5b4-f80513d38588/Untitled.png)
 
 ### 주의사항 ⭐️
 
