@@ -8,6 +8,7 @@
 - EnumSet
 
 
+
 ### 인터페이스 기반 상수의 정의 : 자바5 이전의 방식
 
 인터페이스 내에 선언된 변수는 public, static, final이 선언된 것으로 간주
@@ -20,6 +21,7 @@ interface Scale{
 	int SO = 4; int RA = 5; int TI = 6;
 }
 ```
+
 
 ### 이전 방식의 문제점
 
@@ -57,9 +59,11 @@ public static void who(int man){
 }
 ```
 
+
 ### Enum 📌
 
 열거형(enumerated type)이라고 부르며 서로 연관된 상수들의 집합이다. 기존에 상수를 사용하면서 발생했던 문제(typesafe)를 개선하고자 jdk1.5 부터 추가 된 기능이다.
+
 
 ### Enum 정의 📌
 
@@ -75,6 +79,8 @@ enum Day { // 0부터 연속적인 정수값 부여
     SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;
 }
 ```
+
+
 ### Enum의 사용 💡
 
 - Scale라는 enum을 정의
@@ -108,6 +114,7 @@ public static void main(String[] args){
 }
 ```
 
+
 ### 중요점 ⭐️
 
 - 모든 enum은 클래스를 사용해서 내부적으로 정의가 된다.
@@ -124,7 +131,7 @@ public static final Person WOMAN = new Person();
 //열거형 값의 실체를 설명하는 문장, 실제 컴파 아래와 같다.
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/21b5530e-a532-427b-a5b4-f80513d38588/Untitled.png)
+![Untitled](./enum.jpg)
 
 ### 주의사항 ⭐️
 
